@@ -1,4 +1,4 @@
-package com.devsuperior.dspesquisa.GameService;
+package com.devsuperior.dspesquisa.service;
 
 import java.util.List;
 import java.util.stream.Collectors;

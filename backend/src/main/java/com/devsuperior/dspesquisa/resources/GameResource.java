@@ -1,4 +1,4 @@
-package com.devsuperior.dspesquisa.Resources;
+package com.devsuperior.dspesquisa.resources;
 
 import java.util.List;
 
@@ -9,10 +9,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.devsuperior.dspesquisa.DTO.GameDTO;
-import com.devsuperior.dspesquisa.GameService.GameService;
+import com.devsuperior.dspesquisa.service.GameService;
 
 @RestController
-@RequestMapping(value = "/games")
+@RequestMapping(value = "/records")
 public class GameResource {
 	
 	@Autowired
